@@ -1,0 +1,33 @@
+{
+  "name": "leap-year",
+  "version": "0.0.0",
+  "description": "Check if a year is a leap year",
+  "license": "MIT",
+  "repository": "sindresorhus/leap-year",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "leap",
+    "year",
+    "date"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
