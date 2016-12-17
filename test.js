@@ -2,6 +2,7 @@ import test from 'ava';
 import m from './';
 
 test(t => {
+	t.throws(() => m('foo'), TypeError);
 	t.is(typeof m(), 'boolean');
 	t.false(m(2014));
 	t.true(m(2016));
