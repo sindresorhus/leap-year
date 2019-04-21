@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save leap-year
+$ npm install leap-year
 ```
 
 

@@ -1,7 +1,5 @@
 'use strict';
-module.exports = year => {
-	year = year || new Date();
-
+module.exports = (year = new Date()) => {
 	if (!(year instanceof Date) && typeof year !== 'number') {
 		throw new TypeError(`Expected \`year\` to be of type \`Date\` or \`number\`, got \`${typeof year}\``);
 	}
