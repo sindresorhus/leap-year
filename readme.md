@@ -1,4 +1,4 @@
-# leap-year [![Build Status](https://travis-ci.org/sindresorhus/leap-year.svg?branch=master)](https://travis-ci.org/sindresorhus/leap-year)
+# leap-year
 
 > Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year)
 
