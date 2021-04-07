@@ -2,44 +2,36 @@
 
 > Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year)
 
-
 ## Install
 
 ```
 $ npm install leap-year
 ```
 
-
 ## Usage
 
 ```js
-const leapYear = require('leap-year');
+import isLeapYear from 'leap-year';
 
-leapYear(2014);
+isLeapYear(2014);
 //=> false
 
-leapYear(2016);
+isLeapYear(2016);
 //=> true
 ```
 
-
 ## API
 
-### leapYear([year])
+### isLeapYear(year?)
 
 #### year
 
-Type: `number`<br>
+Type: `number`\
 Default: Current year
 
-### leapYear([date])
+### isLeapYear(date?)
 
 #### date
 
 Type: `Date`
 Default: `new Date()`
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

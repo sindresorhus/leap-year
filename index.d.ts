@@ -5,7 +5,7 @@ Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year).
 
 @example
 ```
-import leapYear = require('leap-year');
+import leapYear from 'leap-year';
 
 leapYear(2014);
 //=> false
@@ -14,6 +14,4 @@ leapYear(2016);
 //=> true
 ```
 */
-declare function leapYear(year?: number | Date): boolean;
-
-export = leapYear;
+export default function isLeapYear(year?: number | Date): boolean;
