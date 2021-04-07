@@ -5,12 +5,12 @@ Check if a year is a [leap year](https://en.wikipedia.org/wiki/Leap_year).
 
 @example
 ```
-import leapYear from 'leap-year';
+import isLeapYear from 'leap-year';
 
-leapYear(2014);
+isLeapYear(2014);
 //=> false
 
-leapYear(2016);
+isLeapYear(2016);
 //=> true
 ```
 */
